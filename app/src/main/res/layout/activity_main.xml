@@ -9,10 +9,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Git 在AndroidStudio中的使用!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="445dp" />
 
 </android.support.constraint.ConstraintLayout>
